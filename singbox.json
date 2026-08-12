@@ -119,12 +119,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "gmzshop.dpdns.org"
+          "Host": "breezy-haven-ca16.hafsi.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
+        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -134,89 +134,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 91.193.59.157:8443 [VLESS]",
-      "server": "91.193.59.157",
-      "server_port": 8443,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 188.164.248.14:2096 [VLESS]",
-      "server": "188.164.248.14",
-      "server_port": 2096,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.36.233:2053 [VLESS]",
-      "server": "162.159.36.233",
-      "server_port": 2053,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.73.79:443 [VLESS]",
-      "server": "172.67.73.79",
+      "tag": "سرویس رایگان نوا @irnova_proxy 8.39.125.125:443 [VLESS]",
+      "server": "8.39.125.125",
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "gmzshop.dpdns.org"
+          "Host": "breezy-haven-ca16.hafsi.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
+        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -226,181 +157,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.103.37:2087 [VLESS]",
-      "server": "104.17.103.37",
-      "server_port": 2087,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.102.171:2096 [VLESS]",
-      "server": "104.17.102.171",
-      "server_port": 2096,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 8.39.125.251:8443 [VLESS]",
-      "server": "8.39.125.251",
-      "server_port": 8443,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.254.205:2083 [VLESS]",
-      "server": "104.16.254.205",
-      "server_port": 2083,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.63.89:2083 [VLESS]",
-      "server": "104.17.63.89",
-      "server_port": 2083,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.255.102:2087 [VLESS]",
-      "server": "104.16.255.102",
-      "server_port": 2087,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.160.72:2053 [VLESS]",
-      "server": "104.17.160.72",
-      "server_port": 2053,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.71.160:443 [VLESS]",
-      "server": "172.67.71.160",
+      "tag": "سرویس رایگان نوا @irnova_proxy 8.39.125.162:443 [VLESS]",
+      "server": "8.39.125.162",
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "gmzshop.dpdns.org"
+          "Host": "breezy-haven-ca16.hafsi.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
+        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -410,43 +180,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.118.109:2083 [VLESS]",
-      "server": "104.17.118.109",
-      "server_port": 2083,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 108.162.198.68:443 [VLESS]",
-      "server": "108.162.198.68",
+      "tag": "سرویس رایگان نوا @irnova_proxy 8.35.211.50:443 [VLESS]",
+      "server": "8.35.211.50",
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "gmzshop.dpdns.org"
+          "Host": "breezy-haven-ca16.hafsi.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
+        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -456,43 +203,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.167.137:2053 [VLESS]",
-      "server": "104.17.167.137",
-      "server_port": 2053,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.27.152:443 [VLESS]",
-      "server": "104.17.27.152",
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.38.182:443 [VLESS]",
+      "server": "162.159.38.182",
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "gmzshop.dpdns.org"
+          "Host": "breezy-haven-ca16.hafsi.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
+        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -511,22 +235,10 @@
         "🔮 负载均衡",
         "DIRECT",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.157:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.14:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.36.233:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.79:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.103.37:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.102.171:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.251:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.205:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.89:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.102:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.160.72:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.71.160:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.118.109:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.68:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.167.137:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.27.152:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.125:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.162:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.35.211.50:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.182:443 [VLESS]"
       ]
     },
     {
@@ -534,22 +246,10 @@
       "tag": "♻️ 自动选择",
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.157:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.14:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.36.233:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.79:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.103.37:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.102.171:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.251:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.205:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.89:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.102:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.160.72:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.71.160:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.118.109:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.68:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.167.137:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.27.152:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.125:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.162:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.35.211.50:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.182:443 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -560,22 +260,10 @@
       "tag": "🔯 故障转移",
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.157:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.14:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.36.233:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.79:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.103.37:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.102.171:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.251:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.205:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.89:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.102:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.160.72:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.71.160:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.118.109:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.68:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.167.137:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.27.152:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.125:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.162:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.35.211.50:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.182:443 [VLESS]"
       ]
     },
     {
@@ -583,22 +271,10 @@
       "tag": "🔮 负载均衡",
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.157:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.14:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.36.233:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.79:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.103.37:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.102.171:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.251:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.205:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.89:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.102:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.160.72:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.71.160:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.118.109:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.68:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.167.137:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.27.152:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.125:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.162:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.35.211.50:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.182:443 [VLESS]"
       ]
     },
     {
@@ -634,22 +310,10 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.157:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.14:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.36.233:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.79:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.103.37:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.102.171:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.251:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.205:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.89:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.102:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.160.72:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.71.160:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.118.109:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.68:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.167.137:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.27.152:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.125:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.162:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.35.211.50:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.182:443 [VLESS]"
       ]
     },
     {
@@ -665,22 +329,10 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.157:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.14:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.36.233:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.79:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.103.37:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.102.171:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.251:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.205:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.89:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.102:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.160.72:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.71.160:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.118.109:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.68:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.167.137:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.27.152:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.125:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.162:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.35.211.50:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.182:443 [VLESS]"
       ]
     },
     {
@@ -691,22 +343,10 @@
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.157:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.14:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.36.233:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.79:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.103.37:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.102.171:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.251:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.205:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.89:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.102:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.160.72:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.71.160:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.118.109:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.68:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.167.137:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.27.152:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.125:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.162:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 8.35.211.50:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.182:443 [VLESS]"
       ]
     },
     {
