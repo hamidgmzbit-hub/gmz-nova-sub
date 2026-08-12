@@ -119,12 +119,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -142,12 +142,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -165,12 +165,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -188,12 +188,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -211,12 +211,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -234,12 +234,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -257,12 +257,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -280,12 +280,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -303,12 +303,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -326,12 +326,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -349,12 +349,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -372,12 +372,12 @@
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "breezy-haven-ca16.hafsi.workers.dev"
+          "Host": "gmzshop.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "breezy-haven-ca16.hafsi.workers.dev",
+        "server_name": "gmzshop.dpdns.org",
         "insecure": false,
         "utls": {
           "enabled": true,
