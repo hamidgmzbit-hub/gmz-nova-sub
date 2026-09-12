@@ -8,55 +8,66 @@
     "servers": [
       {
         "tag": "dns_proxy",
-        "type": "tls",
-        "server": "8.8.8.8",
-        "domain_resolver": "dns_resolver"
+        "address": "tls://8.8.8.8",
+        "address_resolver": "dns_resolver"
       },
       {
         "tag": "dns_direct",
-        "type": "h3",
-        "server": "dns.alidns.com",
-        "domain_resolver": "dns_resolver"
+        "address": "h3://dns.alidns.com/dns-query",
+        "address_resolver": "dns_resolver",
+        "detour": "DIRECT"
       },
       {
         "tag": "dns_fakeip",
-        "type": "fakeip",
-        "inet4_range": "198.18.0.0/15"
+        "address": "fakeip"
       },
       {
         "tag": "dns_resolver",
-        "type": "udp",
-        "server": "223.5.5.5"
+        "address": "223.5.5.5",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "block",
+        "address": "rcode://success"
       }
     ],
     "rules": [
       {
-        "rule_set": [
-          "geosite-category-ads-all"
+        "outbound": [
+          "any"
         ],
-        "action": "predefined",
-        "rcode": "NOERROR"
+        "server": "dns_resolver"
       },
       {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "server": "dns_block",
+        "disable_cache": true
+      },
+      {
+        "geosite": [
+          "geolocation-!cn"
+        ],
         "query_type": [
           "A",
           "AAAA"
         ],
-        "server": "dns_fakeip",
-        "rule_set": [
-          "geosite-geolocation-!cn"
-        ],
-        "action": "route"
+        "server": "dns_fakeip"
       },
       {
-        "server": "dns_proxy",
-        "rule_set": [
-          "geosite-geolocation-!cn"
+        "geosite": [
+          "geolocation-!cn"
         ],
-        "action": "route"
+        "server": "dns_proxy"
       }
     ],
-    "final": "dns_direct"
+    "final": "dns_direct",
+    "independent_cache": true,
+    "fakeip": {
+      "enabled": true,
+      "inet4_range": "198.18.0.0/15"
+    }
   },
   "ntp": {
     "enabled": true,
@@ -65,46 +76,6 @@
     "interval": "30m"
   },
   "outbounds": [
-    {
-      "type": "vmess",
-      "tag": "📢 https://t.me/irnova_proxy",
-      "server": "192.0.2.1",
-      "server_port": 443,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/?fake=1",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
-      "server": "192.0.2.1",
-      "server_port": 443,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/?fake=1",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org"
-      }
-    },
     {
       "type": "direct",
       "tag": "DIRECT"
@@ -116,7 +87,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/go.php/drama",
+        "path": "/episode/ads/courses",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -137,7 +108,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/txt",
+        "path": "/ad",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -158,7 +129,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/films",
+        "path": "/travel/doujin/collect",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -179,7 +150,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/dl/category",
+        "path": "/details",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -200,7 +171,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/image/manhua/store",
+        "path": "/discuss/faq/comic",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -221,7 +192,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/htm/archive",
+        "path": "/photos/new",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -242,7 +213,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/share/wenku",
+        "path": "/cart",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -263,7 +234,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/my",
+        "path": "/streams/task/category",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -284,7 +255,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/soft/post",
+        "path": "/streaming",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -305,7 +276,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/shop/cn",
+        "path": "/lib",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -326,7 +297,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/tool/special",
+        "path": "/out.html/downloads/streams",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -344,8 +315,6 @@
       "type": "selector",
       "tag": "🚀 节点选择",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
@@ -360,7 +329,9 @@
         "سرویس رایگان نوا @irnova_proxy 162.159.19.25:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.43.52:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 162.159.26.134:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.64.154.84:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 172.64.154.84:443 [VLESS]",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
@@ -421,29 +392,27 @@
       "type": "selector",
       "tag": "🎯 全球直连",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
         "🚀 节点选择",
-        "♻️ 自动选择"
+        "♻️ 自动选择",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
       "type": "selector",
       "tag": "🛑 全球拦截",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "REJECT",
-        "DIRECT"
+        "DIRECT",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
       "type": "selector",
       "tag": "🐟 漏网之鱼",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "🚀 节点选择",
         "🎯 全球直连",
         "♻️ 自动选择",
@@ -459,15 +428,15 @@
         "سرویس رایگان نوا @irnova_proxy 162.159.19.25:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.43.52:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 162.159.26.134:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.64.154.84:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 172.64.154.84:443 [VLESS]",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
       "type": "selector",
       "tag": "☁️ CloudFlareCDN",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "🐟 漏网之鱼",
         "🚀 节点选择",
         "🎯 全球直连",
@@ -484,15 +453,15 @@
         "سرویس رایگان نوا @irnova_proxy 162.159.19.25:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.43.52:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 162.159.26.134:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.64.154.84:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 172.64.154.84:443 [VLESS]",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
       "type": "selector",
       "tag": "GLOBAL",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 162.159.138.60:443 [VLESS]",
@@ -504,12 +473,54 @@
         "سرویس رایگان نوا @irnova_proxy 162.159.19.25:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.43.52:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 162.159.26.134:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.64.154.84:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 172.64.154.84:443 [VLESS]",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
       "type": "block",
       "tag": "REJECT"
+    },
+    {
+      "type": "vmess",
+      "tag": "📢 https://t.me/irnova_proxy",
+      "server": "192.0.2.1",
+      "server_port": 443,
+      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?fake=1",
+        "headers": {
+          "Host": "gmzshop.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "gmzshop.dpdns.org"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
+      "server": "192.0.2.1",
+      "server_port": 443,
+      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?fake=1",
+        "headers": {
+          "Host": "gmzshop.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "gmzshop.dpdns.org"
+      }
     }
   ],
   "route": {
@@ -2268,9 +2279,18 @@
       },
       {
         "domain": [
-          "ic.adobe.io",
+          "adobe.io",
           "cc-api-data.adobe.io",
+          "crs.cr.adobe.com",
           "fp.adobestats.io",
+          "gcos.adobe.io",
+          "hbc.adobe.io",
+          "ic.adobe.io",
+          "lcs-robs.adobe.io",
+          "lcs-ulecs.adobe.io",
+          "prod.adobegenuine.com",
+          "workflow.licenses.adobe.com",
+          "workflow-stage.licenses.adobe.com",
           "0mo5a70cqa.adobe.io",
           "1b9khekel6.adobe.io",
           "1hzopx6nz7.adobe.io",
@@ -4049,7 +4069,6 @@
           "qfo0y9d3ohxu.4e2id.adobestats.io",
           "ogktn7dh1u.adobe.io",
           "fqtfjwmddnvn.051my.adobestats.io",
-          "lcs-robs.adobe.io",
           "s8ehmx99qw4z.4p4bv.adobestats.io",
           "6sx70k2n.bgvqb.adobestats.io",
           "m5eo8l308yn5.bgvqb.adobestats.io",
@@ -4065,7 +4084,6 @@
           "8kbj8x2r.xwk4b.adobestats.io",
           "6pqb1f0d.7r39q.adobestats.io",
           "ah2wt6iy.4e2id.adobestats.io",
-          "hbc.adobe.io",
           "mjilgpuvz7.adobestats.io",
           "yj1mifm2n4.adobestats.io",
           "csbv68eh.jiegg.adobestats.io",
@@ -4740,7 +4758,6 @@
           "m5s2furqby.7cnli.adobestats.io",
           "ggrvx3yxdd.adobestats.io",
           "gaac5p2y.4p4bv.adobestats.io",
-          "lcs-ulecs.adobe.io",
           "uc8axrnlin0.pkxns.adobestats.io",
           "zwp5hbxe.ay6tu.adobestats.io",
           "cmdqm0fl.4p4bv.adobestats.io",
@@ -4957,7 +4974,6 @@
           "3w267rdagt.p5jr3.adobestats.io",
           "cz7cgfnm6t.a13cy.adobestats.io",
           "ose7nyyjlh.lqn0m.adobestats.io",
-          "crs.cr.adobe.com",
           "gwzwlfgl4b.adobestats.io",
           "vdcf8rui0fr.a13cy.adobestats.io",
           "zeg3f5j2umh.lqn0m.adobestats.io",
@@ -5212,13 +5228,11 @@
           "k9bn1pb8.xwk4b.adobestats.io",
           "du19xw8i.4p4bv.adobestats.io",
           "j8awrvsh.wzwva.adobestats.io",
-          "gcos.adobe.io",
           "dd4wnlnz4o4.wzwva.adobestats.io",
           "dzgae2njxaq.lqn0m.adobestats.io",
           "zfkju3qu.xwk4b.adobestats.io",
           "ybnt1hdy.4p4bv.adobestats.io",
           "uczq5cp8.xwk4b.adobestats.io",
-          "prod.adobegenuine.com",
           "6o12rj6e.sf7e3.adobestats.io",
           "bga0dy55fqj.xwk4b.adobestats.io",
           "0bcampyyowr.lqn0m.adobestats.io",
@@ -5814,7 +5828,6 @@
           "q97bkqcvwh.adobestats.io",
           "lqkw18jb.sf7e3.adobestats.io",
           "m6zd0jnw.xwk4b.adobestats.io",
-          "adobe.io",
           "v8qopmtw.lqn0m.adobestats.io",
           "yfin3djujv.xwk4b.adobestats.io",
           "f5jeo6zi0.xwk4b.adobestats.io",
@@ -6918,8 +6931,6 @@
           "yooc080gjbs.jyqfm.adobestats.io",
           "zhp234mvi9t1.jyqfm.adobestats.io",
           "zrdjiy99m.jyqfm.adobestats.io",
-          "workflow.licenses.adobe.com",
-          "workflow-stage.licenses.adobe.com",
           "ttghbajq.td3wc.adobestats.io",
           "00l0620h.td3wc.adobestats.io",
           "0fjqvt7lisx.td3wc.adobestats.io",
@@ -7944,7 +7955,9 @@
           "yg764x25r.4cbdo.adobestats.io",
           "yhd0ulso1k2.4cbdo.adobestats.io",
           "ymax7z224wf.4cbdo.adobestats.io",
-          "zm9vka6gfi2.4cbdo.adobestats.io"
+          "zm9vka6gfi2.4cbdo.adobestats.io",
+          "fekuerjze5.4cbdo.adobestats.io",
+          "fire-fly.adobe.io"
         ],
         "outbound": "🛑 全球拦截",
         "action": "route"
@@ -9714,14 +9727,10 @@
           "5.226.179.0/24",
           "5.226.181.0/24",
           "14.102.228.0/23",
-          "23.145.136.0/24",
-          "23.145.152.0/24",
           "23.145.232.0/24",
-          "23.145.248.0/24",
           "23.167.152.0/24",
           "23.178.112.0/24",
           "23.179.248.0/24",
-          "23.180.136.0/24",
           "23.247.163.0/24",
           "25.25.25.0/24",
           "25.26.27.0/24",
@@ -9793,12 +9802,10 @@
           "103.11.214.0/24",
           "103.15.85.0/24",
           "103.19.144.0/23",
-          "103.79.228.0/23",
           "103.112.176.0/24",
           "103.116.7.0/24",
           "103.121.59.0/24",
           "103.133.1.0/24",
-          "103.135.208.0/22",
           "103.169.142.0/24",
           "103.172.110.0/23",
           "103.204.13.0/24",
@@ -9944,7 +9951,6 @@
           "203.34.80.0/24",
           "203.55.107.0/24",
           "203.89.5.0/24",
-          "203.168.128.0/22",
           "204.62.141.0/24",
           "204.68.111.0/24",
           "205.233.181.0/24",
@@ -9988,7 +9994,12 @@
           "8.39.214.0/24",
           "8.44.61.0/24",
           "8.47.69.0/24",
+          "16.5.144.0/20",
           "23.131.204.0/24",
+          "23.145.136.0/24",
+          "23.145.152.0/24",
+          "23.145.248.0/24",
+          "23.180.136.0/24",
           "23.227.37.0/24",
           "23.227.38.0/23",
           "23.227.42.0/23",
@@ -9997,9 +10008,9 @@
           "31.185.108.0/24",
           "37.153.170.0/23",
           "38.96.28.0/23",
-          "43.228.232.0/23",
-          "43.230.112.0/23",
-          "43.230.114.0/24",
+          "42.61.47.0/24",
+          "43.229.39.0/24",
+          "43.230.144.0/24",
           "45.12.44.0/23",
           "45.45.255.0/24",
           "45.128.76.0/24",
@@ -10035,7 +10046,6 @@
           "66.71.220.0/24",
           "66.80.5.0/24",
           "66.84.82.0/24",
-          "66.92.62.0/24",
           "66.93.178.0/24",
           "66.203.249.0/24",
           "66.235.200.0/24",
@@ -10079,10 +10089,16 @@
           "103.22.203.0/24",
           "103.31.4.0/24",
           "103.31.79.0/24",
+          "103.41.125.0/24",
+          "103.41.185.0/24",
+          "103.49.212.0/24",
           "103.50.96.0/23",
           "103.51.12.0/23",
           "103.54.128.0/23",
+          "103.79.228.0/23",
           "103.81.228.0/24",
+          "103.130.111.0/24",
+          "103.135.208.0/22",
           "103.186.74.0/24",
           "103.198.92.0/24",
           "103.215.22.0/24",
@@ -10101,8 +10117,7 @@
           "104.22.31.0/24",
           "104.22.32.0/23",
           "104.22.42.0/23",
-          "104.22.44.0/23",
-          "104.22.46.0/24",
+          "104.22.44.0/22",
           "104.22.48.0/22",
           "104.22.52.0/24",
           "104.22.56.0/23",
@@ -10124,7 +10139,7 @@
           "104.22.112.0/21",
           "104.22.120.0/24",
           "104.22.123.0/24",
-          "104.22.124.0/22",
+          "104.22.127.0/24",
           "104.22.128.0/23",
           "104.22.131.0/24",
           "104.22.132.0/23",
@@ -10153,6 +10168,7 @@
           "104.22.216.0/23",
           "104.22.219.0/24",
           "104.22.220.0/24",
+          "104.22.226.0/24",
           "104.23.160.0/20",
           "104.23.176.0/23",
           "104.23.178.0/24",
@@ -10163,9 +10179,13 @@
           "104.23.201.0/24",
           "104.23.202.0/23",
           "104.23.204.0/24",
-          "104.23.207.0/24",
+          "104.23.206.0/23",
           "104.23.208.0/20",
-          "104.23.224.0/19",
+          "104.23.224.0/20",
+          "104.23.240.0/21",
+          "104.23.248.0/24",
+          "104.23.250.0/23",
+          "104.23.252.0/22",
           "104.24.0.0/18",
           "104.24.64.0/19",
           "104.24.128.0/17",
@@ -10206,6 +10226,7 @@
           "108.162.248.0/23",
           "108.162.250.0/24",
           "109.234.211.0/24",
+          "122.152.164.0/24",
           "123.108.75.0/24",
           "123.253.173.0/24",
           "123.253.174.0/24",
@@ -10244,6 +10265,7 @@
           "144.124.212.0/24",
           "144.124.214.0/23",
           "144.208.122.0/24",
+          "144.225.66.0/24",
           "144.225.90.0/24",
           "145.63.64.0/24",
           "145.224.255.0/24",
@@ -10258,6 +10280,7 @@
           "151.246.216.0/23",
           "152.114.0.0/17",
           "152.114.128.0/18",
+          "153.79.174.0/24",
           "154.46.20.0/24",
           "154.81.141.0/24",
           "154.84.164.0/24",
@@ -10405,10 +10428,7 @@
           "172.64.203.0/24",
           "172.64.205.0/24",
           "172.64.206.0/23",
-          "172.64.208.0/23",
-          "172.64.210.0/24",
-          "172.64.212.0/22",
-          "172.64.216.0/21",
+          "172.64.208.0/20",
           "172.64.228.0/22",
           "172.64.232.0/22",
           "172.64.240.0/20",
@@ -10445,6 +10465,7 @@
           "172.68.72.0/23",
           "172.68.74.0/24",
           "172.68.76.0/23",
+          "172.68.79.0/24",
           "172.68.82.0/23",
           "172.68.84.0/22",
           "172.68.88.0/24",
@@ -10453,7 +10474,6 @@
           "172.68.96.0/23",
           "172.68.99.0/24",
           "172.68.100.0/22",
-          "172.68.105.0/24",
           "172.68.107.0/24",
           "172.68.108.0/22",
           "172.68.113.0/24",
@@ -10495,8 +10515,7 @@
           "172.68.228.0/23",
           "172.68.230.0/24",
           "172.68.234.0/23",
-          "172.68.236.0/23",
-          "172.68.238.0/24",
+          "172.68.236.0/22",
           "172.68.242.0/23",
           "172.68.244.0/22",
           "172.68.248.0/23",
@@ -10553,6 +10572,7 @@
           "172.69.147.0/24",
           "172.69.148.0/22",
           "172.69.152.0/24",
+          "172.69.154.0/23",
           "172.69.156.0/24",
           "172.69.158.0/24",
           "172.69.162.0/24",
@@ -10577,7 +10597,7 @@
           "172.69.219.0/24",
           "172.69.220.0/22",
           "172.69.224.0/22",
-          "172.69.228.0/23",
+          "172.69.229.0/24",
           "172.69.233.0/24",
           "172.69.234.0/23",
           "172.69.236.0/24",
@@ -10623,7 +10643,7 @@
           "172.70.196.0/23",
           "172.70.199.0/24",
           "172.70.201.0/24",
-          "172.70.202.0/23",
+          "172.70.202.0/24",
           "172.70.204.0/22",
           "172.70.208.0/24",
           "172.70.212.0/22",
@@ -10691,7 +10711,9 @@
           "173.245.60.0/23",
           "173.245.63.0/24",
           "176.103.113.0/24",
+          "177.28.6.0/24",
           "178.83.176.0/24",
+          "178.94.178.0/24",
           "178.94.249.0/24",
           "180.255.25.0/24",
           "181.215.196.0/24",
@@ -10711,6 +10733,7 @@
           "185.149.135.0/24",
           "185.156.19.0/24",
           "185.158.133.0/24",
+          "185.171.229.0/24",
           "185.178.196.0/22",
           "185.229.206.0/24",
           "188.42.98.0/24",
@@ -10726,6 +10749,7 @@
           "192.71.82.0/24",
           "192.86.150.0/24",
           "192.103.56.0/24",
+          "192.120.41.0/24",
           "193.8.231.0/24",
           "193.8.237.0/24",
           "193.118.171.0/24",
@@ -10766,6 +10790,7 @@
           "198.41.242.0/24",
           "198.52.36.0/24",
           "198.148.174.0/24",
+          "198.200.167.0/24",
           "198.217.251.0/24",
           "198.252.206.0/24",
           "199.7.70.0/24",
@@ -10782,6 +10807,8 @@
           "203.117.8.0/24",
           "203.117.53.0/24",
           "203.120.52.0/24",
+          "203.168.128.0/22",
+          "203.168.192.0/20",
           "204.4.235.0/24",
           "204.62.121.0/24",
           "204.62.122.0/24",
@@ -10812,14 +10839,17 @@
           "212.114.54.0/24",
           "216.19.107.0/24",
           "216.74.106.0/24",
+          "216.97.235.0/24",
           "216.132.75.0/24",
           "216.163.179.0/24",
           "216.183.79.0/24",
           "216.224.121.0/24",
+          "217.8.196.0/24",
           "217.25.13.0/24",
           "217.180.16.0/23",
           "218.33.92.0/22",
           "222.167.32.0/22",
+          "222.167.227.0/24",
           "103.21.246.0/23",
           "104.22.240.0/20",
           "104.23.0.0/19",
@@ -10879,21 +10909,8 @@
         "tag": "geosite-category-phishing",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-phishing.srs"
-      },
-      {
-        "tag": "geosite-category-ads-all",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads-all.srs"
-      },
-      {
-        "tag": "geosite-geolocation-!cn",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-!cn.srs"
       }
-    ],
-    "default_domain_resolver": "dns_resolver"
+    ]
   },
   "experimental": {
     "cache_file": {
