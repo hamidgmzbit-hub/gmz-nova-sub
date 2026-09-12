@@ -87,7 +87,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/out/index",
+        "path": "/images/books",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -108,7 +108,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/apps/documents/tech",
+        "path": "/game",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -129,7 +129,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/star/act",
+        "path": "/albums",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -150,7 +150,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/documents/service",
+        "path": "/game",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -171,7 +171,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/site",
+        "path": "/act",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -192,7 +192,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/doc/discuss/archive",
+        "path": "/live/pic/register",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -213,7 +213,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/settings/novels/m",
+        "path": "/sale",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -234,7 +234,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/data",
+        "path": "/link/forums/playlist",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -255,7 +255,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/cart/thread",
+        "path": "/play",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -276,7 +276,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/series",
+        "path": "/picture",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -297,7 +297,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/jumping/go.php",
+        "path": "/programs/film/torrent",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -318,7 +318,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/work",
+        "path": "/jp/image",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -339,7 +339,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/activity",
+        "path": "/pic/manhua/lib",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -360,7 +360,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/magnet/retrieve",
+        "path": "/files/details/go.php",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -381,7 +381,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/my/res",
+        "path": "/account/store/directory",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
