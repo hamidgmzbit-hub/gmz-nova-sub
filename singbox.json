@@ -87,7 +87,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/play/item/cart",
+        "path": "/pay/p",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -108,7 +108,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/services",
+        "path": "/doc/avatar/blogs",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -129,7 +129,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/bd/knowledge/document",
+        "path": "/message",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -150,7 +150,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/seller/episodes/event",
+        "path": "/doc/bd",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -171,7 +171,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/tool",
+        "path": "/class/ranking/lessons",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -192,7 +192,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/sale/m",
+        "path": "/lesson",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -213,7 +213,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/special/members",
+        "path": "/docs/thread/seller",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -234,7 +234,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/stream",
+        "path": "/project",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -255,7 +255,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/html",
+        "path": "/show/html/readme",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -276,7 +276,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/htm",
+        "path": "/articles/config",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -297,7 +297,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/club/picture",
+        "path": "/game",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
