@@ -87,7 +87,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/pay",
+        "path": "/m",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -110,7 +110,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/list/novel/about",
+        "path": "/p/travel",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -133,7 +133,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/pages",
+        "path": "/china/note/books",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -156,7 +156,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/picture/doc",
+        "path": "/html",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -179,7 +179,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/favourites",
+        "path": "/static/topics/live",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -202,7 +202,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/channel",
+        "path": "/group/program",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -225,7 +225,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/zh/u/version",
+        "path": "/help",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -248,7 +248,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/edu/classify/category",
+        "path": "/episode",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -271,7 +271,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/app/community",
+        "path": "/details",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -294,7 +294,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/blog/hot",
+        "path": "/sale/events",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -317,7 +317,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/comics/contact/new",
+        "path": "/pay/cb",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
