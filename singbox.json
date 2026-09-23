@@ -87,7 +87,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/episode/torrent/store",
+        "path": "/pay",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -110,30 +110,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/lives/magnet",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 172.64.152.129:443 [VLESS]",
-      "server": "172.64.152.129",
-      "server_port": 443,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/directory/season/url",
+        "path": "/list/novel/about",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -156,7 +133,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/go.php",
+        "path": "/pages",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -179,53 +156,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/info/dl/china",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.169.145:443 [VLESS]",
-      "server": "172.67.169.145",
-      "server_port": 443,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/topic",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.169.143:443 [VLESS]",
-      "server": "172.67.169.143",
-      "server_port": 443,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/help/albums/programs",
+        "path": "/picture/doc",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -248,7 +179,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/trade/users",
+        "path": "/favourites",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -271,7 +202,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/books/page",
+        "path": "/channel",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -294,7 +225,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/downloads/document/zh-tw",
+        "path": "/zh/u/version",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -317,7 +248,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/avatar/tags/zh",
+        "path": "/edu/classify/category",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -340,7 +271,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/images/channel/picture",
+        "path": "/app/community",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -363,7 +294,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/product",
+        "path": "/blog/hot",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -386,53 +317,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/pay/txt",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.212.37:443 [VLESS]",
-      "server": "172.67.212.37",
-      "server_port": 443,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/site/html",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "gmzshop.dpdns.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.25.231.225:443 [VLESS]",
-      "server": "104.25.231.225",
-      "server_port": 443,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/edu/collection/bbs",
+        "path": "/comics/contact/new",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -458,11 +343,8 @@
         "DIRECT",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.64.152.129:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.145:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 140.248.141.93:443 [VLESS]",
@@ -470,8 +352,6 @@
         "سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.212.37:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.25.231.225:443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -482,20 +362,15 @@
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.64.152.129:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.145:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 140.248.141.93:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 140.248.137.217:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.212.37:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.25.231.225:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -507,20 +382,15 @@
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.64.152.129:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.145:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 140.248.141.93:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 140.248.137.217:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.212.37:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.25.231.225:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]"
       ]
     },
     {
@@ -529,20 +399,15 @@
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.64.152.129:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.145:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 140.248.141.93:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 140.248.137.217:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.212.37:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.25.231.225:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]"
       ]
     },
     {
@@ -577,11 +442,8 @@
         "🔮 负载均衡",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.64.152.129:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.145:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 140.248.141.93:443 [VLESS]",
@@ -589,8 +451,6 @@
         "سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.212.37:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.25.231.225:443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -607,11 +467,8 @@
         "🔮 负载均衡",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.64.152.129:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.145:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 140.248.141.93:443 [VLESS]",
@@ -619,8 +476,6 @@
         "سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.212.37:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.25.231.225:443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -632,11 +487,8 @@
         "DIRECT",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.64.152.129:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.145:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.169.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 140.248.141.93:443 [VLESS]",
@@ -644,8 +496,6 @@
         "سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.212.37:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.25.231.225:443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
