@@ -87,7 +87,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/shop/order",
+        "path": "/blog/outbound/events",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -110,7 +110,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/tools",
+        "path": "/travel",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -133,7 +133,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/jp",
+        "path": "/vip",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -156,7 +156,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/season/seller",
+        "path": "/link/type",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -179,7 +179,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/jump.html/channel",
+        "path": "/album/archive/act",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -202,7 +202,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/album/ask/detail",
+        "path": "/out",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -225,7 +225,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/playlist",
+        "path": "/class/code",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -248,7 +248,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/upload/config/hot",
+        "path": "/urls",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -271,7 +271,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/image",
+        "path": "/mall/type",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -294,7 +294,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/help",
+        "path": "/go",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -317,7 +317,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/acg/en",
+        "path": "/ads/blogs",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
