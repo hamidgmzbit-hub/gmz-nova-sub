@@ -87,7 +87,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/anime/pages/soft",
+        "path": "/go.php/books/china",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -110,7 +110,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/feedback/wiki/student",
+        "path": "/album/type",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -133,7 +133,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/about/mall",
+        "path": "/pay/topics/shows",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -156,7 +156,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/cn",
+        "path": "/image/channel/index",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -179,7 +179,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/p/read/archive",
+        "path": "/episode/order",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -202,7 +202,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/upload/zh-tw",
+        "path": "/friend/m",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -225,7 +225,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/products/company/archive",
+        "path": "/pic/acg/items",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -248,7 +248,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/movie/topic",
+        "path": "/blogs",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -271,7 +271,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/bbs",
+        "path": "/star/htm/document",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -294,7 +294,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/urls/links/event",
+        "path": "/pics/list",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -317,7 +317,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/test/bt",
+        "path": "/settings",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -340,7 +340,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/channel",
+        "path": "/friends/pics/activity",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -363,7 +363,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/apps/playlist",
+        "path": "/clip/jump.html/player",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -386,7 +386,30 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/channels/friends",
+        "path": "/archives/user/live",
+        "type": "ws",
+        "headers": {
+          "Host": "gmzshop.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "gmzshop.dpdns.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [VLESS]",
+      "server": "104.21.65.217",
+      "server_port": 443,
+      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
+      "transport": {
+        "path": "/cart/uploads/books",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -424,6 +447,7 @@
         "سرویس رایگان نوا @irnova_proxy 172.67.198.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.242:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.248:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -445,7 +469,8 @@
         "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.242:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.198.248:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 172.67.198.248:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -468,7 +493,8 @@
         "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.242:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.198.248:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 172.67.198.248:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [VLESS]"
       ]
     },
     {
@@ -488,7 +514,8 @@
         "سرویس رایگان نوا @irnova_proxy 172.67.212.104:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.242:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.198.248:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 172.67.198.248:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [VLESS]"
       ]
     },
     {
@@ -535,6 +562,7 @@
         "سرویس رایگان نوا @irnova_proxy 172.67.198.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.242:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.248:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -563,6 +591,7 @@
         "سرویس رایگان نوا @irnova_proxy 172.67.198.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.242:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.248:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -586,6 +615,7 @@
         "سرویس رایگان نوا @irnova_proxy 172.67.198.143:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.242:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 172.67.198.248:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
