@@ -87,7 +87,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/go.php/books/china",
+        "path": "/torrent/documents",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -99,7 +99,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -110,7 +110,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/album/type",
+        "path": "/archives/archive",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -122,7 +122,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -133,7 +133,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/pay/topics/shows",
+        "path": "/class",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -145,7 +145,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -156,7 +156,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/image/channel/index",
+        "path": "/drama/travel/friends",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -168,7 +168,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -179,7 +179,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/episode/order",
+        "path": "/channels",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -191,7 +191,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -202,7 +202,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/friend/m",
+        "path": "/url/shop/seller",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -214,7 +214,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -225,7 +225,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/pic/acg/items",
+        "path": "/list",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -237,7 +237,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -248,7 +248,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/blogs",
+        "path": "/books",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -260,7 +260,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -271,7 +271,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/star/htm/document",
+        "path": "/photos/activity/topic",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -283,7 +283,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -294,7 +294,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/pics/list",
+        "path": "/stock/online/apps",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -306,7 +306,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -317,7 +317,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/settings",
+        "path": "/articles",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -329,7 +329,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -340,7 +340,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/friends/pics/activity",
+        "path": "/messages/games",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -352,7 +352,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -363,7 +363,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/clip/jump.html/player",
+        "path": "/doc",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -375,7 +375,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -386,7 +386,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/archives/user/live",
+        "path": "/articles",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -398,7 +398,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
@@ -409,7 +409,7 @@
       "server_port": 443,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/cart/uploads/books",
+        "path": "/html/company",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -421,7 +421,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       }
     },
