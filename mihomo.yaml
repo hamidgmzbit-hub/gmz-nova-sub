@@ -31,20 +31,17 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, alterId: 0, cipher: auto, tls: true, servername: "gmzshop.dpdns.org", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "gmzshop.dpdns.org"}}, udp: false}
   - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, alterId: 0, cipher: auto, tls: true, servername: "gmzshop.dpdns.org", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "gmzshop.dpdns.org"}}, udp: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]", server: gmzshop.dpdns.org, port: 80, type: vless, uuid: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /type/users, headers: {Host: gmzshop.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [TROJAN]", server: 172.64.152.130, port: 80, type: trojan, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, sni: gmzshop.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /classify, headers: {Host: gmzshop.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [SS]", server: 104.21.205.225, port: 443, type: ss, cipher: aes-128-gcm, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: gmzshop.dpdns.org, path: "/cart/jumping/albums?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]", server: 172.67.169.213, port: 80, type: vless, uuid: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /photo, headers: {Host: gmzshop.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [TROJAN]", server: 104.24.224.199, port: 80, type: trojan, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, sni: gmzshop.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /trade, headers: {Host: gmzshop.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [SS]", server: 104.27.47.231, port: 443, type: ss, cipher: aes-128-gcm, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: gmzshop.dpdns.org, path: "/torrent/blogs/items?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 140.248.137.217:443 [VLESS]", server: 140.248.137.217, port: 80, type: vless, uuid: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /seller/cb/collection, headers: {Host: gmzshop.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [TROJAN]", server: 104.19.193.199, port: 80, type: trojan, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, sni: gmzshop.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /map, headers: {Host: gmzshop.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [SS]", server: 104.25.231.228, port: 443, type: ss, cipher: aes-128-gcm, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: gmzshop.dpdns.org, path: "/playlist/about/film?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 72.67.198.143:443 [VLESS]", server: 72.67.198.143, port: 80, type: vless, uuid: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /topic/shows/links, headers: {Host: gmzshop.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [TROJAN]", server: 104.21.65.217, port: 80, type: trojan, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, sni: gmzshop.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /readme, headers: {Host: gmzshop.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.64.85.34:443 [SS]", server: 172.64.85.34, port: 443, type: ss, cipher: aes-128-gcm, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: gmzshop.dpdns.org, path: "/picture/feedback/album?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.64.85.41:443 [VLESS]", server: 172.64.85.41, port: 80, type: vless, uuid: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /list, headers: {Host: gmzshop.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.64.85.36:443 [TROJAN]", server: 172.64.85.36, port: 80, type: trojan, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, sni: gmzshop.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /wenku/playlist, headers: {Host: gmzshop.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]", server: gmzshop.dpdns.org, port: 80, type: vless, uuid: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /avatar/movies/blogs, headers: {Host: gmzshop.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]", server: 172.67.154.174, port: 80, type: trojan, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, sni: gmzshop.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /qa/player/faq, headers: {Host: gmzshop.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]", server: 172.67.154.181, port: 443, type: ss, cipher: aes-128-gcm, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: gmzshop.dpdns.org, path: "/special/favourites/documents?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]", server: 104.21.193.113, port: 80, type: vless, uuid: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /channel/map, headers: {Host: gmzshop.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]", server: 172.67.154.38, port: 80, type: trojan, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, sni: gmzshop.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /study/series/article, headers: {Host: gmzshop.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]", server: 172.67.154.177, port: 443, type: ss, cipher: aes-128-gcm, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: gmzshop.dpdns.org, path: "/class/doujin?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]", server: 104.21.193.108, port: 80, type: vless, uuid: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /redirect.php/out.html/go.php, headers: {Host: gmzshop.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]", server: 172.67.154.176, port: 80, type: trojan, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, sni: gmzshop.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /category/type, headers: {Host: gmzshop.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]", server: 172.67.154.75, port: 443, type: ss, cipher: aes-128-gcm, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: gmzshop.dpdns.org, path: "/seller/html/ep?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]", server: 104.21.193.104, port: 80, type: vless, uuid: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /program/items/config, headers: {Host: gmzshop.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]", server: 172.66.199.246, port: 80, type: trojan, password: 1ad6cb63-d72c-412c-8fa6-f2776677eb6c, sni: gmzshop.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /photos/album/jumping, headers: {Host: gmzshop.dpdns.org}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -56,19 +53,16 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 140.248.137.217:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 72.67.198.143:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.34:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.41:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.36:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -76,38 +70,32 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 140.248.137.217:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 72.67.198.143:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.34:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.41:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.36:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 140.248.137.217:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 72.67.198.143:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.34:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.41:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.36:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -115,19 +103,16 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 140.248.137.217:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 72.67.198.143:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.34:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.41:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.36:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,19 +139,16 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 140.248.137.217:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 72.67.198.143:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.34:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.41:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.36:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -179,19 +161,16 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.152.130:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.21.205.225:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.169.213:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.24.224.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.27.47.231:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 140.248.137.217:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.193.199:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.25.231.228:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 72.67.198.143:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.21.65.217:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.34:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.41:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.64.85.36:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]
 rules:
 # SANCTION BYPASS RULES
   - DOMAIN-SUFFIX,intel.com,DIRECT
@@ -7567,6 +7546,13 @@ rules:
   - DOMAIN,pirn9t2nbqxs.6u13v.adobestats.io,🛑 全球拦截
   - DOMAIN,qrkm8lznul.6u13v.adobestats.io,🛑 全球拦截
   - DOMAIN,ynb4dnmkb3.6u13v.adobestats.io,🛑 全球拦截
+  - DOMAIN,90ss7qvydj6.4p4bv.adobestats.io,🛑 全球拦截
+  - DOMAIN,mdvuqnnr3dsl.4p4bv.adobestats.io,🛑 全球拦截
+  - DOMAIN,vonunaxc.61ro5.adobestats.io,🛑 全球拦截
+  - DOMAIN,9d6v9viz79.u0op6.adobestats.io,🛑 全球拦截
+  - DOMAIN,ljlijiscgm.u0op6.adobestats.io,🛑 全球拦截
+  - DOMAIN,ny052em6i.bgvqb.adobestats.io,🛑 全球拦截
+  - DOMAIN,spmyox8k4.u0op6.adobestats.io,🛑 全球拦截
   - DOMAIN-SUFFIX,265.com,🚀 节点选择
   - DOMAIN-SUFFIX,2mdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🚀 节点选择
@@ -9274,10 +9260,9 @@ rules:
   - IP-CIDR,5.226.179.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,5.226.181.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,14.102.228.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,23.145.232.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,23.141.168.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.167.152.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.178.112.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,23.179.248.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.247.163.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,25.25.25.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,25.26.27.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9319,10 +9304,10 @@ rules:
   - IP-CIDR,77.37.33.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,77.74.228.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,77.75.199.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,77.105.163.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,77.232.140.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,80.93.202.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,83.118.224.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,85.237.216.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,86.38.214.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,88.216.66.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.47.56.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9332,12 +9317,9 @@ rules:
   - IP-CIDR,89.116.250.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.117.112.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.207.18.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,91.192.106.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,91.193.58.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.199.81.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.209.253.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,92.53.188.0/22,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,92.60.74.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,93.114.64.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,93.115.102.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.140.0.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9353,7 +9335,6 @@ rules:
   - IP-CIDR,103.133.1.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,103.169.142.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,103.172.110.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,103.204.13.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.36.195.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.129.164.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.234.239.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9365,7 +9346,6 @@ rules:
   - IP-CIDR,130.108.73.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,130.108.104.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,130.108.121.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,130.108.253.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,136.143.138.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,138.5.248.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,139.64.234.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9390,7 +9370,6 @@ rules:
   - IP-CIDR,154.202.89.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.206.12.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.211.8.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,154.218.15.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,155.46.167.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,155.46.213.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,156.243.246.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9416,7 +9395,6 @@ rules:
   - IP-CIDR,170.176.152.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.83.72.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.83.76.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,176.124.223.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,176.126.206.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,178.211.142.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,178.213.76.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9428,7 +9406,6 @@ rules:
   - IP-CIDR,185.148.104.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.159.247.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.162.228.0/22,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,185.170.166.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.176.26.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.193.28.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.207.92.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9495,7 +9472,6 @@ rules:
   - IP-CIDR,203.55.107.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.89.5.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,204.62.141.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,204.68.111.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,205.233.181.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,207.189.149.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,208.42.188.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9517,38 +9493,140 @@ rules:
   - IP-CIDR,1.1.1.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,5.10.214.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,5.83.149.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,5.172.33.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,5.226.183.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,5.252.81.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.6.112.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.20.125.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.21.10.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.6.144.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.6.146.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.9.231.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.10.148.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.14.201.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.14.202.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.14.204.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.17.205.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.17.206.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.18.50.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.18.113.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.18.194.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.18.196.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.19.8.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.20.100.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.20.103.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.20.122.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.20.124.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.20.253.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.21.8.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.21.13.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.21.110.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.21.238.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.23.139.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.23.240.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.24.87.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.24.242.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.24.244.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.25.96.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.25.249.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.26.182.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.27.64.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.27.66.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.27.68.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.27.70.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.27.79.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.28.20.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.28.82.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.28.126.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.28.213.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.29.105.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.29.109.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.29.228.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.29.230.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.30.234.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.31.2.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.31.160.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.34.70.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.31.163.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.34.69.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.34.70.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.34.146.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.34.200.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.34.202.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.35.57.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.35.58.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.35.149.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.35.211.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.35.216.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.36.216.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.36.220.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.37.41.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.37.43.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.38.147.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.38.148.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.39.6.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.39.18.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.39.125.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.39.204.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.39.214.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.39.126.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.39.201.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.39.202.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.39.204.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.39.206.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.39.212.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.40.26.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.40.28.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.40.107.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.40.111.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.40.140.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.41.5.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.41.6.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.41.36.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.41.39.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.41.129.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.42.51.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.42.52.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.42.54.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.42.161.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.42.164.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.42.172.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.42.245.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.43.121.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.43.122.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.43.224.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.43.226.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.44.6.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.44.58.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.44.61.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.44.62.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.45.41.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.45.42.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.45.97.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.45.100.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.45.102.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.45.108.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.45.111.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.45.144.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.45.151.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.46.113.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.46.114.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.46.116.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.47.9.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.47.12.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.47.69.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.47.71.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.48.130.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.48.132.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,8.48.134.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,16.5.144.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.131.204.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.145.136.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.145.152.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,23.145.232.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.145.248.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,23.179.248.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.180.136.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.227.37.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.227.38.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.227.42.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.227.48.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.227.60.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,31.56.192.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,31.185.108.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,37.72.109.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,37.153.170.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9556,6 +9634,8 @@ rules:
   - IP-CIDR,42.61.47.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,43.229.39.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,43.230.144.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,45.6.45.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,45.6.47.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.12.44.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.43.147.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.43.158.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9566,6 +9646,7 @@ rules:
   - IP-CIDR,45.134.227.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.146.130.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.148.100.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,45.152.208.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.157.17.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.192.223.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.192.224.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9582,10 +9663,12 @@ rules:
   - IP-CIDR,51.194.144.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,51.241.128.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,57.250.49.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,57.250.51.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,57.250.50.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,57.250.58.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,61.8.33.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,61.32.240.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,61.245.108.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,62.144.59.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,62.146.255.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,64.8.255.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,64.40.138.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9605,31 +9688,62 @@ rules:
   - IP-CIDR,72.22.87.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,74.1.17.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,77.73.113.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,77.90.139.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,77.90.148.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,77.90.156.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,77.90.170.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,77.90.173.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,77.90.190.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,78.128.122.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,80.68.216.0/21,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,80.174.2.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,80.174.7.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,80.174.202.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,80.174.205.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,80.240.93.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.21.82.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,82.21.188.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.22.16.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,82.22.21.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,82.22.49.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.25.20.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.26.156.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.39.253.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.47.124.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.139.216.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,82.152.216.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,82.152.216.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,82.153.184.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,83.245.13.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,83.245.66.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,84.232.93.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,84.236.184.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,85.133.194.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,85.133.201.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,87.84.129.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,87.85.66.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,87.85.71.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,87.85.131.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,87.85.174.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,87.232.75.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,87.232.80.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,87.232.113.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,88.216.69.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,89.32.173.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.46.251.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,89.167.240.0/21,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,90.96.176.0/20,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,91.192.106.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.206.71.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.213.221.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.224.186.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,91.234.202.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,92.44.1.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,93.95.19.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,93.118.176.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,93.118.189.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.118.42.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.156.10.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.177.26.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.194.72.0/21,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,95.135.36.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,96.43.100.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,98.98.234.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,103.21.244.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9650,6 +9764,7 @@ rules:
   - IP-CIDR,103.135.208.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,103.186.74.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,103.198.92.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,103.204.13.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,103.215.22.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.16.0.0/14,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.20.0.0/18,☁️ CloudFlareCDN,no-resolve
@@ -9697,8 +9812,7 @@ rules:
   - IP-CIDR,104.22.140.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.148.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.150.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.155.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.156.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.152.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.160.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.162.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.165.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9708,20 +9822,27 @@ rules:
   - IP-CIDR,104.22.174.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.176.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.184.0/22,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.190.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.193.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.194.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.190.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.192.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.196.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.198.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.202.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.204.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.204.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.210.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.216.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.219.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.220.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.222.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.224.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.226.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.232.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.233.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.234.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.236.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.238.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.249.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.250.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.252.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.254.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.160.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.176.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.178.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9734,7 +9855,11 @@ rules:
   - IP-CIDR,104.23.204.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.206.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.208.0/20,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.23.224.0/19,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.23.224.0/20,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.23.240.0/21,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.23.248.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.23.250.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.23.252.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.24.0.0/18,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.24.64.0/19,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.24.128.0/17,☁️ CloudFlareCDN,no-resolve
@@ -9746,6 +9871,7 @@ rules:
   - IP-CIDR,104.29.111.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.29.124.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.29.128.0/18,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.29.192.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.30.0.0/19,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.30.32.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.30.128.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9786,7 +9912,9 @@ rules:
   - IP-CIDR,123.108.75.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.253.173.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.253.174.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,129.192.2.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,131.0.72.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,131.162.148.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,131.167.255.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,137.66.96.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,138.226.212.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9794,6 +9922,7 @@ rules:
   - IP-CIDR,138.249.21.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,138.249.126.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,138.249.148.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,140.233.163.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,140.233.180.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,141.101.65.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,141.101.66.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9820,13 +9949,15 @@ rules:
   - IP-CIDR,144.124.211.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.212.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.214.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,144.124.223.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.208.122.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,144.225.66.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,144.225.66.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.225.90.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,145.63.64.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,145.224.255.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,146.19.108.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,147.189.42.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,148.135.194.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,148.224.60.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,148.227.167.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,149.112.78.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9836,12 +9967,12 @@ rules:
   - IP-CIDR,151.246.216.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,152.114.0.0/17,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,152.114.128.0/18,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,153.51.214.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,153.51.216.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,153.79.172.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,153.79.174.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.46.20.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.81.141.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,154.84.164.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,154.86.118.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.193.63.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.193.133.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.193.184.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9863,6 +9994,7 @@ rules:
   - IP-CIDR,161.115.162.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,161.248.134.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.44.104.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,162.141.1.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.0.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.8.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.10.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9870,14 +10002,16 @@ rules:
   - IP-CIDR,162.158.16.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.24.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.26.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,162.158.28.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,162.158.29.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.30.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.32.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.35.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.36.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.40.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.44.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,162.158.48.0/21,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,162.158.48.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,162.158.50.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,162.158.52.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.61.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.62.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.73.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9921,6 +10055,7 @@ rules:
   - IP-CIDR,162.159.0.0/18,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.159.64.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.159.81.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,162.159.84.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.159.88.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.159.96.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.159.100.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9949,15 +10084,19 @@ rules:
   - IP-CIDR,162.159.240.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.251.82.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.251.205.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,163.245.49.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,164.138.5.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,165.101.60.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,166.0.10.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,166.88.240.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,167.1.137.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,167.74.92.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,167.74.130.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,167.74.142.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,167.148.84.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,168.151.31.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,168.183.3.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,168.222.46.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,169.40.38.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,169.40.40.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,169.40.133.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,170.168.7.0/24,☁️ CloudFlareCDN,no-resolve
@@ -10000,8 +10139,7 @@ rules:
   - IP-CIDR,172.66.216.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.67.64.0/18,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.67.128.0/17,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.68.0.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.68.2.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.68.0.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.4.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.6.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.8.0/23,☁️ CloudFlareCDN,no-resolve
@@ -10115,7 +10253,8 @@ rules:
   - IP-CIDR,172.69.101.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.102.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.104.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.69.108.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.69.108.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.69.110.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.112.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.114.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.117.0/24,☁️ CloudFlareCDN,no-resolve
@@ -10158,9 +10297,9 @@ rules:
   - IP-CIDR,172.69.224.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.229.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.233.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.69.234.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.69.235.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.236.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.69.238.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.69.239.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.241.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.245.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.246.0/23,☁️ CloudFlareCDN,no-resolve
@@ -10247,13 +10386,16 @@ rules:
   - IP-CIDR,172.71.187.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.189.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.190.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.71.192.0/21,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.71.192.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.71.197.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.71.198.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.200.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.208.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.216.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.221.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.222.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.224.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.71.228.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.232.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.240.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.242.0/24,☁️ CloudFlareCDN,no-resolve
@@ -10268,9 +10410,13 @@ rules:
   - IP-CIDR,173.245.63.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,176.103.113.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,177.28.6.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,177.104.130.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,177.104.132.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,177.104.140.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,178.83.176.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,178.94.178.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,178.94.249.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,178.239.123.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,180.255.25.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,181.215.196.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,182.23.210.0/24,☁️ CloudFlareCDN,no-resolve
@@ -10313,6 +10459,8 @@ rules:
   - IP-CIDR,192.103.56.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,192.120.41.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,192.250.58.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,193.8.27.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,193.8.28.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,193.8.231.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,193.8.237.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,193.118.171.0/24,☁️ CloudFlareCDN,no-resolve
@@ -10320,6 +10468,8 @@ rules:
   - IP-CIDR,193.135.44.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,193.202.90.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,193.202.112.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,193.202.114.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,193.203.4.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.34.64.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.34.70.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.34.76.0/24,☁️ CloudFlareCDN,no-resolve
@@ -10329,10 +10479,15 @@ rules:
   - IP-CIDR,194.34.84.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.34.88.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.34.93.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,194.77.208.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,194.77.209.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,194.77.210.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,194.77.212.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.77.235.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.152.130.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,195.21.128.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,195.21.148.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,195.66.29.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,195.85.194.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,195.216.190.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,195.242.122.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,197.234.240.0/22,☁️ CloudFlareCDN,no-resolve
@@ -10342,6 +10497,7 @@ rules:
   - IP-CIDR,198.41.192.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.208.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.211.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,198.41.213.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.214.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.216.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.222.0/23,☁️ CloudFlareCDN,no-resolve
@@ -10362,9 +10518,11 @@ rules:
   - IP-CIDR,199.65.62.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,199.68.16.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,200.69.28.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,200.102.177.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,200.218.32.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,202.27.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,202.49.114.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,202.58.111.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.5.33.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.15.65.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.116.108.0/24,☁️ CloudFlareCDN,no-resolve
@@ -10380,6 +10538,10 @@ rules:
   - IP-CIDR,204.153.16.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,204.195.192.0/18,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,205.203.78.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,206.15.50.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,206.15.53.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,206.15.54.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,206.15.56.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,206.206.104.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,207.57.150.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,207.89.22.0/23,☁️ CloudFlareCDN,no-resolve
@@ -10401,7 +10563,13 @@ rules:
   - IP-CIDR,212.6.39.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,212.104.128.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,212.114.54.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,212.189.70.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,212.189.71.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,212.189.86.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,212.189.92.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,213.209.139.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,213.209.141.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,213.209.143.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,213.209.147.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,216.19.107.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,216.74.106.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,216.97.235.0/24,☁️ CloudFlareCDN,no-resolve
@@ -10412,6 +10580,7 @@ rules:
   - IP-CIDR,217.8.196.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,217.25.13.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,217.180.16.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,217.216.171.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,218.33.92.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,222.167.32.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,103.21.246.0/23,☁️ CloudFlareCDN,no-resolve
