@@ -87,7 +87,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/collect",
+        "path": "/favs",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -103,13 +103,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.26.1.186:433 [TROJAN]",
-      "server": "104.26.1.186",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]",
+      "server": "172.67.154.174",
+      "server_port": 80,
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
         "type": "ws",
-        "path": "/readme",
+        "path": "/watch/channel/images",
         "headers": {
           "Host": "gmzshop.dpdns.org"
         }
@@ -125,13 +125,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 91.193.59.46:433 [SS]",
-      "server": "91.193.59.46",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]",
+      "server": "172.67.154.181",
+      "server_port": 443,
       "method": "aes-128-gcm",
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/tags/dh/novels?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/program/url?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -142,12 +142,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.45.210:433 [VLESS]",
-      "server": "162.159.45.210",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]",
+      "server": "104.21.193.113",
+      "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/topics/program/go.php",
+        "path": "/config/episode",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -163,13 +163,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.104.82:433 [TROJAN]",
-      "server": "104.17.104.82",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]",
+      "server": "172.67.154.38",
+      "server_port": 80,
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
         "type": "ws",
-        "path": "/channel/member/china",
+        "path": "/order/api",
         "headers": {
           "Host": "gmzshop.dpdns.org"
         }
@@ -185,13 +185,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.31.163:433 [SS]",
-      "server": "104.17.31.163",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]",
+      "server": "172.67.154.177",
+      "server_port": 443,
       "method": "aes-128-gcm",
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/section/photos/class?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/product?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -202,12 +202,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.52.207:433 [VLESS]",
-      "server": "104.19.52.207",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]",
+      "server": "104.21.193.108",
+      "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/message",
+        "path": "/settings/torrent/dl",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -223,13 +223,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 108.162.198.79:433 [TROJAN]",
-      "server": "108.162.198.79",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]",
+      "server": "172.67.154.176",
+      "server_port": 80,
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
         "type": "ws",
-        "path": "/cp/redirect.php/txt",
+        "path": "/shop/shows/soft",
         "headers": {
           "Host": "gmzshop.dpdns.org"
         }
@@ -245,13 +245,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 198.41.209.251:433 [SS]",
-      "server": "198.41.209.251",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]",
+      "server": "172.67.154.75",
+      "server_port": 443,
       "method": "aes-128-gcm",
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/account/photos?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/lang/torrent?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -262,12 +262,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.123.204:433 [VLESS]",
-      "server": "104.17.123.204",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]",
+      "server": "104.21.193.104",
+      "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/p",
+        "path": "/forums",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -283,13 +283,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.33.51:433 [TROJAN]",
-      "server": "104.18.33.51",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]",
+      "server": "172.66.199.246",
+      "server_port": 80,
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
         "type": "ws",
-        "path": "/mall",
+        "path": "/type/mall/item",
         "headers": {
           "Host": "gmzshop.dpdns.org"
         }
@@ -305,13 +305,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.210.34:433 [SS]",
-      "server": "104.17.210.34",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]",
+      "server": "104.18.0.0",
+      "server_port": 443,
       "method": "aes-128-gcm",
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/account/cart?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/images/out.html/playlist?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -322,12 +322,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.33.198:433 [VLESS]",
-      "server": "104.18.33.198",
-      "server_port": 433,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
+      "server": "104.18.1.1",
+      "server_port": 2052,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/season",
+        "path": "/book/ajax/about",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -335,88 +335,6 @@
       },
       "tls": {
         "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 8.35.211.9:433 [TROJAN]",
-      "server": "8.35.211.9",
-      "server_port": 433,
-      "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "type": "ws",
-        "path": "/clip/users/ep",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.148.165:433 [SS]",
-      "server": "104.19.148.165",
-      "server_port": 433,
-      "method": "aes-128-gcm",
-      "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/en/special?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.52.149:433 [VLESS]",
-      "server": "104.17.52.149",
-      "server_port": 433,
-      "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "path": "/cn",
-        "type": "ws",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.67.226:433 [TROJAN]",
-      "server": "172.67.67.226",
-      "server_port": 433,
-      "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
-      "transport": {
-        "type": "ws",
-        "path": "/f/group/lib",
-        "headers": {
-          "Host": "gmzshop.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -432,22 +350,18 @@
         "🔮 负载均衡",
         "DIRECT",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.26.1.186:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.46:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.210:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.104.82:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.31.163:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.52.207:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.79:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.123.204:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.51:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.210.34:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.198:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.9:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.148.165:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.52.149:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.67.226:433 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -457,22 +371,18 @@
       "tag": "♻️ 自动选择",
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.26.1.186:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.46:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.210:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.104.82:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.31.163:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.52.207:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.79:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.123.204:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.51:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.210.34:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.198:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.9:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.148.165:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.52.149:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.67.226:433 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -483,22 +393,18 @@
       "tag": "🔯 故障转移",
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.26.1.186:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.46:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.210:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.104.82:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.31.163:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.52.207:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.79:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.123.204:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.51:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.210.34:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.198:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.9:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.148.165:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.52.149:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.67.226:433 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]"
       ]
     },
     {
@@ -506,22 +412,18 @@
       "tag": "🔮 负载均衡",
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.26.1.186:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.46:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.210:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.104.82:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.31.163:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.52.207:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.79:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.123.204:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.51:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.210.34:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.198:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.9:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.148.165:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.52.149:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.67.226:433 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]"
       ]
     },
     {
@@ -555,22 +457,18 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.26.1.186:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.46:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.210:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.104.82:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.31.163:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.52.207:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.79:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.123.204:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.51:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.210.34:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.198:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.9:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.148.165:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.52.149:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.67.226:433 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -586,22 +484,18 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.26.1.186:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.46:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.210:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.104.82:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.31.163:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.52.207:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.79:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.123.204:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.51:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.210.34:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.198:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.9:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.148.165:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.52.149:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.67.226:433 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -612,22 +506,18 @@
       "outbounds": [
         "DIRECT",
         "سرویس رایگان نوا @irnova_proxy gmzshop.dpdns.org:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.26.1.186:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 91.193.59.46:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.210:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.104.82:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.31.163:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.52.207:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.79:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.123.204:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.51:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.210.34:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.198:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.9:433 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.148.165:433 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.52.149:433 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.67.226:433 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.174:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.181:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.113:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.38:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.177:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.108:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.176:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.154.75:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.193.104:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.199.246:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
