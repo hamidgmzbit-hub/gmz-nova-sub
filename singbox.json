@@ -87,7 +87,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/links/user",
+        "path": "/doc/cb/collection",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -109,7 +109,7 @@
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
         "type": "ws",
-        "path": "/chat/register/events",
+        "path": "/clip/tv",
         "headers": {
           "Host": "gmzshop.dpdns.org"
         }
@@ -131,7 +131,7 @@
       "method": "aes-128-gcm",
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/acg?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/games/files?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -147,7 +147,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/photos/documents/hot",
+        "path": "/movie/albums/pdf",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -169,7 +169,7 @@
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
         "type": "ws",
-        "path": "/pics/question",
+        "path": "/go.php/articles",
         "headers": {
           "Host": "gmzshop.dpdns.org"
         }
@@ -191,7 +191,7 @@
       "method": "aes-128-gcm",
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/zh-cn/message?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/library/retrieve/hot?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -207,7 +207,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/post",
+        "path": "/download/dl/contact",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
@@ -229,7 +229,7 @@
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
         "type": "ws",
-        "path": "/downloads",
+        "path": "/auth",
         "headers": {
           "Host": "gmzshop.dpdns.org"
         }
@@ -251,7 +251,7 @@
       "method": "aes-128-gcm",
       "password": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/out.php?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=gmzshop.dpdns.org;path=/playlist/live/task?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -267,7 +267,7 @@
       "server_port": 80,
       "uuid": "1ad6cb63-d72c-412c-8fa6-f2776677eb6c",
       "transport": {
-        "path": "/music/chat",
+        "path": "/settings/item",
         "type": "ws",
         "headers": {
           "Host": "gmzshop.dpdns.org"
